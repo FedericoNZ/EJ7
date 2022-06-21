@@ -18,13 +18,13 @@ namespace EJ7
 
         public decimal Total()
         {
-            var sumaDe10 = BilletesDe10 * 10;
-            var sumaDe20 = BilletesDe20 * 20;
-            var sumaDe50 = BilletesDe50 * 50;
-            var sumaDe100 = BilletesDe100 * 100;
-            var sumaDe200 = BilletesDe200 * 200;
-            var sumaDe500 = BilletesDe500 * 500;
-            var sumaDe1000 = BilletesDe1000 * 1000;
+            var sumaDe10 = BilletesDe10 * 10m;
+            var sumaDe20 = BilletesDe20 * 20m;
+            var sumaDe50 = BilletesDe50 * 50m;
+            var sumaDe100 = BilletesDe100 * 100m;
+            var sumaDe200 = BilletesDe200 * 200m;
+            var sumaDe500 = BilletesDe500 * 500m;
+            var sumaDe1000 = BilletesDe1000 * 1000m;
             decimal sumaTotal = sumaDe10 + sumaDe20 + sumaDe50 + sumaDe100 + sumaDe200 + sumaDe500 + sumaDe1000;
             return sumaTotal;
         }
